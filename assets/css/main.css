@@ -2030,7 +2030,12 @@ input, select, textarea {
 		.icon.brands:before {
 			font-family: 'Font Awesome 5 Brands';
 		}
-
+		p[tag="quote"] {
+			font-size: 20px;
+			font-weight: bold;
+			color: white;
+			-webkit-text-stroke: .75px black;
+		}
 /* Header */
 
 	#header {
