@@ -4,6 +4,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<style>
+			#about p {
+				color: #333; /* Dark gray color */
+			}
+		</style>
 	</head>
 	<body class="is-preload">
 
@@ -22,10 +27,7 @@
 					<!-- Nav -->
 						<nav id="nav">
 							<ul>
-								<li><a href="#top" id="top-link"><span class="icon solid fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link"><span class="icon solid fa-th">Portfolio</span></a></li>
-								<li><a href="#about" id="about-link"><span class="icon solid fa-user">About Me</span></a></li>
-								
+								<li><a href="index.html" id="top-link"><span class="icon solid fa-home">Home</span></a></li>
 							</ul>
 						</nav>
 
@@ -50,80 +52,52 @@
 			<div id="main">
 
 				<!-- Intro -->
-					<section id="top" class="one dark cover">
-						<div class="container">
-
-							<header>
-								<h2 class="alt">Hi! I'm an <strong>aspiring engineer</strong>, on this site you'll find some of the robots, games and other engineering projects I've worked on!</h2>
-								<p tag="quote">“Science can amuse and fascinate us all, but it is engineering that changes the world.”</p>
-							</header>
-
-							<footer>
-								<a href="#portfolio" class="button scrolly">Portfolio</a>
-							</footer>
-
-						</div>
-					</section>
+					
 
 				<!-- Portfolio -->
 					<section id="portfolio" class="two">
 						<div class="container">
 
 							<header>
-								<h2>Portfolio</h2>
+								<h2>Prosthetic Arm</h2>
 							</header>
 
-							<p>These are some of the projects I've worked on in order to build various engineering skills</p>
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="roboticArm.html" target="_blank" class="image fit"><img src="images/lo.png" alt="" /></a>
-										<header>
-											<h3>Robotic Arm</h3>
-										</header>
-									</article>
-									<article class="item">
-										<a href="musicPlayer.html" target="_blank" class="image fit"><img src="images/amongus.jpg" alt="" /></a>
-										<header>
-											<h3>Music Player</h3>
-										</header>
-									</article>
+								  <article class="item">
+									<a href="https://youtube.com/shorts/TCUh5f7OxcM?feature=share" target="_blank" class="image fit">
+									  <img src="images/arm.jpg" alt="" />
+									</a>
+									<header>
+									  <h3>Video description of the robot in action!</h3>
+									</header>
+								  </article>
 								</div>
+							  
+								<!-- New div for the second image -->
+								<div class="col-4 col-12-mobile">
+								  <article class="item">
+									<a href="images/prostheticCad.PNG" target="_blank" class="image fit">
+									  <img src="images/prostheticCad.PNG" alt="Description for the second image" />
+									</a>
+									<header>
+									  <h3>CAD Design! (Using TinkerCAD)</h3>
+									</header>
+								  </article>
+								</div>
+								
 								<div class="col-4 col-12-mobile">
 									<article class="item">
-										<a href="prostheticArm.html" target="_blank" class="image fit"><img src="images/arm.jpg" alt="" /></a>
-										<header>
-											<h3>Prosthetic arm</h3>
-										</header>
+									  <a href="https://github.com/NiegelF/prostheticArm" target="_blank" class="image fit">
+										<img src="images/prostheticArmCode.PNG" alt="Description for the Third image" />
+									  </a>
+									  <header>
+										<h3>GitHub Code!</h3>
+									  </header>
 									</article>
-									      <!-- 
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-										<header>
-											<h3>Natoque Vitae</h3>
-										</header>
-									</article>
-								         -->
-
-								</div>
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-										<a href="vacuumSeal.html" target="_blank" class="image fit"><img src="images/spiderman.PNG" alt="" /></a>
-										<header>
-											<h3>Wall Climber</h3>
-										</header>
-									</article>
-									<!--
-									<article class="item">
-										<a href="#" class="image fit"><img src="images/pic07.jpg" alt="" /></a>
-										<header>
-											<h3>Orci Convallis</h3>
-										</header>
-									</article>
-									 -->
-								</div>
-							</div>
+								  </div>
+							  </div>
 
 						</div>
 					</section>
@@ -133,13 +107,15 @@
 						<div class="container">
 
 							<header>
-								<h2>About Me</h2>
+								<h2>Prosthetic Arm Description</h2>
 							</header>
 							<!-- 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 -->
-							<p>
-								I'm an enthusiastic aspiring engineer with proficiency in robotics and software engineering. My objective has consistently revolved around bringing to life the most innovative inventions I can conceive, employing a blend of CAD, software engineering, electrical engineering, and mechanical engineering concepts.
+							<p>I fashioned this prosthetic arm utilizing an Arduino Nano, MG996R servo, and an EMG sensor. Straying from the intricacies of Fusion 360, my design took shape in TinkerCAD during those early days. Tying the tendons together, I opted for fishing wire and reinforced the structure with kevlar cord to ensure the fingers maintained their dexterity.
+
+								This prosthetic arm stands as my inaugural engineering undertaking—a plunge into the realms of 3D modeling, precise design, microcontroller programming, and motor manipulation all rolled into one. Embarking on such an ambitious project from the get-go was undoubtedly daring, but with diligence, I managed to bring it to operational fruition. Looking back, the journey underscores the significant learning curve encountered, such that were I to undertake a similar project today, the timeline would assuredly be notably condensed. It serves as a vivid testament to the substantial growth and knowledge garnered from this transformative experience.
+
 							</p>
 
 						</div>
