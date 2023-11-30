@@ -71,7 +71,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
-
+h2.alt {
+    font-size: 2em;
+    color: #fff; /* Set text color */
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000; /* Set black outline */
+  }
 /* Basic */
 
 	html {

@@ -59,18 +59,18 @@
 						<div class="container">
 
 							<header>
-								<h2>4-Axis Robotic Arm</h2>
+								<h2>AI ESP32 Assistant</h2>
 							</header>
 
 
 							<div class="row">
 								<div class="col-4 col-12-mobile">
 								  <article class="item">
-									<a href="https://youtu.be/6d398YxdkFk" target="_blank" class="image fit">
-									  <img src="images/lo.png" alt="" />
+									<a href="https://youtu.be/w7Je-z21ihs" target="_blank" class="image fit">
+									  <img src="images/IMG_1805.JPG" alt="" />
 									</a>
 									<header>
-									  <h3>Video description of the robot in action!</h3>
+									  <h3>Video description of the AI Assistant in action!</h3>
 									</header>
 								  </article>
 								</div>
@@ -78,25 +78,16 @@
 								<!-- New div for the second image -->
 								<div class="col-4 col-12-mobile">
 								  <article class="item">
-									<a href="images/roboticArm.png" target="_blank" class="image fit">
-									  <img src="images/roboticArm.png" alt="Description for the second image" />
+									<a href="https://github.com/NiegelF/jarvis" target="_blank" class="image fit">
+									  <img src="images/jarvisCode.PNG" alt="Description for the second image" />
 									</a>
 									<header>
-									  <h3>CAD Design! (Using Fusion360)</h3>
+									  <h3>GitHub for this project!</h3>
 									</header>
 								  </article>
 								</div>
 								
-								<div class="col-4 col-12-mobile">
-									<article class="item">
-									  <a href="images/code.PNG" target="_blank" class="image fit">
-										<img src="images/code.PNG" alt="Description for the Third image" />
-									  </a>
-									  <header>
-										<h3>GitHub Code!</h3>
-									  </header>
-									</article>
-								  </div>
+
 							  </div>
 
 						</div>
@@ -107,14 +98,19 @@
 						<div class="container">
 
 							<header>
-								<h2>Robotic Arm Description</h2>
+								<h2>AI ESP32 Assistant Description</h2>
 							</header>
 							<!-- 
 							<a href="#" class="image featured"><img src="images/pic08.jpg" alt="" /></a>
 -->
-							<p>So, I built this 4-axis robotic arm mainly because I needed a hand (literally) in my hobbyist adventures—soldering and piecing together my various inventions and robot projects. Leveraging Fusion 360 for the design process, I iterated through multiple 3D prints to address challenges such as the servos struggling with heavier loads.
+							<p>I created an AI Assistant inspired by the likes of Jarvis from Iron Man. Fueled by two ESP32s, a microphone, and a speaker, this project elevates the concept of home automation and voice interaction. Picture this: I speak into the microphone, and the AI Assistant springs into action.
 
-								The arm, featuring Arduino, MG996R servos, and a PCA9685 driver, significantly streamlines my activities. Programmed in C++ and incorporating joysticks for effortless control, it provides a pragmatic solution to facilitate seamless maneuverability. It stands as a practical tool that markedly improves the efficiency of my tinkering sessions. This robotic arm serves as an invaluable companion, rendering hobbyist soldering and robot-building endeavors notably more gratifying.  
+								The process unfolds intricately. Voice input is captured and converted into file streams, which are then whisked away to a Speech-to-Text server via the Google Cloud API. The server, akin to Jarvis deciphering Tony Stark's commands, processes the input and returns the result through a post request. This payload makes its way to the ChatGPT API, where the AI Assistant channels its inner Jarvis to generate contextually rich responses.
+								
+								But the magic doesn't stop there. The post request, now brimming with conversational finesse, is relayed to a Text-to-Speech server—again, courtesy of the Google Cloud API. The AI Assistant, inspired by Jarvis's eloquence, breathes life into its responses, playing them back through the speaker.
+								
+								In essence, this project is a homage to the seamless interaction depicted in Iron Man, where technology becomes an extension of the user. From voice input to intelligent responses, it encapsulates the spirit of Jarvis in a real-world AI Assistant, bridging the gap between fiction and innovation.
+
 							</p>
 
 						</div>
