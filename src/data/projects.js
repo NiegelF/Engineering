@@ -10,13 +10,13 @@ export const featuredProjects = [
     images: [],
     cadImages: [
       {
-        src: "/projects/digital-camera-cad.png",
+        src: "projects/digital-camera-cad.png",
         alt: "Digital camera CAD view",
       },
     ],
     schematics: [
       {
-        src: "/projects/digital-camera-circuit.png",
+        src: "projects/digital-camera-circuit.png",
         alt: "Digital camera KiCad circuit image",
       },
     ],
@@ -30,19 +30,19 @@ export const featuredProjects = [
     summary: "Designed and programmed a standalone embedded music player with physical controls.",
     description: "A compact media device integrating firmware, audio output stages, and low-latency control input.",
     tags: ["ESP32", "Audio", "Firmware", "Rapid Prototyping"],
-    thumbnail: "/projects/music-player-thumb.jpg",
+    thumbnail: "projects/music-player-thumb.jpg",
     breakdown:
       "I treated this as a clean embedded product experiment: fast boot behavior, responsive controls, and reliable file playback under constrained resources.",
     images: [],
     cadImages: [
       {
-        src: "/projects/music-player-cad.png",
+        src: "projects/music-player-cad.png",
         alt: "Music player enclosure CAD view",
       },
     ],
     schematics: [
       {
-        src: "/projects/music-player-circuit.png",
+        src: "projects/music-player-circuit.png",
         alt: "Music player KiCad PCB layout",
       },
     ],
@@ -56,19 +56,19 @@ export const featuredProjects = [
     summary: "Developed a mechatronic prosthetic arm prototype emphasizing practical actuation and control.",
     description: "A human-centered robotics project combining mechanism design, motor control, and electronics integration.",
     tags: ["Robotics", "Mechatronics", "Motor Control", "Electronics"],
-    thumbnail: "/projects/prosthetic-arm-thumb.jpg",
+    thumbnail: "projects/prosthetic-arm-thumb.jpg",
     breakdown:
       "This build focused on balancing mechanical strength, movement precision, and controllability while keeping the architecture modular for future sensing upgrades.",
     images: [],
     cadImages: [
       {
-        src: "/projects/prosthetic-arm-cad.png",
+        src: "projects/prosthetic-arm-cad.png",
         alt: "Prosthetic arm CAD assembly",
       },
     ],
     schematics: [
       {
-        src: "/projects/prosthetic-arm-circuit.jpg",
+        src: "projects/prosthetic-arm-circuit.jpg",
         alt: "Prosthetic arm circuit and wiring setup",
       },
     ],
@@ -81,7 +81,7 @@ export const featuredProjects = [
     summary: "Built an ESP32-powered assistant prototype that blends embedded control with AI-backed interactions.",
     description: "An edge-friendly assistant platform exploring voice flows, connected services, and hardware response loops.",
     tags: ["ESP32", "AI", "Embedded Systems", "IoT"],
-    thumbnail: "/projects/esp32-ai-assistant.jpg",
+    thumbnail: "projects/esp32-ai-assistant.jpg",
     breakdown:
       "This project was about making AI interaction tangible on real hardware. I iterated trigger handling, response latency, and reliable network behavior in constrained environments.",
     images: [],
