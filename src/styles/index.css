@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", "Sora", "Segoe UI", sans-serif;
+  background: #030712;
+}
+
+.glass-panel {
+  @apply border border-slate-700/60 bg-slate-900/55 backdrop-blur-xl;
+}
